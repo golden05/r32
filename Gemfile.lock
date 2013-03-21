@@ -63,6 +63,8 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.1)
+    commands (0.2.1)
+      rails (>= 3.2.0)
     diff-lcs (1.2.1)
     ejs (1.0.0)
     em-websocket (0.5.0)
@@ -230,6 +232,7 @@ DEPENDENCIES
   bootstrap-sass
   capybara!
   coffee-rails (~> 3.2.1)
+  commands
   factory_girl_rails
   guard-jasmine
   guard-livereload

@@ -34,6 +34,7 @@ group :development, :test do
   gem 'guard-livereload'
   gem 'guard-rspec'
   gem 'guard-jasmine'
+  gem 'commands'
   gem 'rb-fsevent', '~> 0.9.1'
   gem 'annotate'
 end
