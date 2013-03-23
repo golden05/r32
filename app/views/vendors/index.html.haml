@@ -1,0 +1,11 @@
+%h1 All Vendors
+name  nsh  address
+- @vendors.each do |vendor|
+  %p
+    = link_to vendor.name, vendor_path(vendor)
+    = vendor.nsh
+    = vendor.address
+    = link_to 'edit', edit_vendor_path(vendor)
+    = link_to 'delete',vendor, method: :delete, data: { confirm: 'Are you sure?' }
+%p
+= link_to 'new', new_vendor_path

@@ -1,0 +1,15 @@
+%h1 New Vendor
+= form_for @vendor do |f|
+  %p
+    = f.label :name
+    = f.text_field :name
+  %p
+    = f.label :nsh
+    = f.text_field :nsh
+  %p
+    = f.label :address
+    = f.text_field :address
+  %p
+    = f.submit 'submit'
+%p
+= link_to 'back', vendors_path
